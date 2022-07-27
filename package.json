@@ -1,4 +1,5 @@
 {
+  "homepage": "https://yumekiti.github.io/kubevirt-slide/",
   "scripts": {
     "start": "fusuma start",
     "start:prod": "fusuma start-prod",

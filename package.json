@@ -5,9 +5,13 @@
   "scripts": {
     "start": "fusuma start",
     "start:prod": "fusuma start-prod",
-    "build": "fusuma build -b $npm_package_config_basePath",
-    "deploy": "npm run build && fusuma deploy",
+    "build": "fusuma build -b $npm_package_config_basePath -o dist",
+    "deploy": "npm run build && fusuma deploy -b $npm_package_config_basePath",
     "pdf": "npm run build && fusuma pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumekiti/kubevirt-slide.git"
   },
   "devDependencies": {
     "fusuma": "^2.8.4"

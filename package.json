@@ -1,5 +1,7 @@
 {
-  "homepage": ".",
+  "config": {
+    "basePath": "kubevirt-slide"
+  },
   "scripts": {
     "start": "fusuma start",
     "start:prod": "fusuma start-prod",

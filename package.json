@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "fusuma": "^2.8.4"
+  },
+  "dependencies": {
+    "react": "^16.14.0"
   }
 }
